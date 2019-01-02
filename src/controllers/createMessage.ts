@@ -3,4 +3,8 @@ export default class Messenger{
     constructor(port){
         this.port=port
     }
+
+    messagePrint(){
+        return `nOET EXPRESS SERVER RUNNING on port ${this.port}`
+    }
 }
